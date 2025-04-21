@@ -1,0 +1,67 @@
+/* Position */
+
+/* .main {
+    background-color: lightblue;
+    width: 500px;
+    height: 900px;
+}
+
+.box {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 1px solid beige;
+    margin: 2px;
+    display: inline-block;
+    color: white;
+}
+
+#box3 {
+    background-color: green !important; */
+
+    /* Element/div Relative hojata hai body k normal flow se or apni previous jaga pe gap chor deta hai */
+
+    /* position: relative; */
+
+    /*Absolute main Element/div Relative hojata hai apne first parent k sath or apna gap bhi remove krdeta hai 
+    (Act aise krta hai jese yeh hai hi nhi)*/
+
+    /* position: absolute; */
+    /* top: 20px; */
+    /* left: 20px; */
+
+    /*  element/div body k normal flow k hisab se chlta hai or jo value dete hain wahan uss position pe jakay fix hojata hai or jagah change nhi krta
+    even when u scroll the page . yeh apni main jagah chor deta hai or dosray element cover krlete hain iski jagah.  */
+
+    /* position: fixed;
+    bottom: 50px;
+    right: 20px;
+     */
+
+    /* Sticky */
+
+    /* Sticky main element/div top,left,rifght,bottom se jitne bhi pixel deinge uspe 
+     jakay stick hojayega or scroll krne pe page k sath move hoga apni jagah pe rehte huay
+     (used for navbar) 
+    position: sticky;
+    top: 0px;
+}*/
+
+
+.main-div{
+    position: relative;
+}
+
+
+img {
+    height: 200px;
+    width: 800px;
+}
+
+.text{
+    color: blue;
+    position: absolute;
+    text-align: justify;
+    top: 10px;
+    left: 10px;
+}
